@@ -1,3 +1,5 @@
+{% assign page_locale = page.locale | default: site.locale %}
+
 {% if site.url %}
   {% assign base_path = site.url | append: site.baseurl %}
 {% else %}

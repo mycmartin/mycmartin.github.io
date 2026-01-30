@@ -20,8 +20,36 @@
     {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
   </div>
 
+  {% assign page_lang = page.lang | default: "en" %}
+  {% assign lang_ref = page.lang_ref %}
+  {% assign en_url = "/" %}
+  {% assign zh_url = "/zh/" %}
+  {% if lang_ref %}
+    {% assign en_page = nil %}
+    {% assign zh_page = nil %}
+    {% assign en_candidates = site.pages | where: "lang_ref", lang_ref | where: "lang", "en" %}
+    {% assign zh_candidates = site.pages | where: "lang_ref", lang_ref | where: "lang", "zh" %}
+    {% if en_candidates.size > 0 %}{% assign en_page = en_candidates | first %}{% endif %}
+    {% if zh_candidates.size > 0 %}{% assign zh_page = zh_candidates | first %}{% endif %}
+    {% for collection in site.collections %}
+      {% assign en_candidates = collection.docs | where: "lang_ref", lang_ref | where: "lang", "en" %}
+      {% assign zh_candidates = collection.docs | where: "lang_ref", lang_ref | where: "lang", "zh" %}
+      {% if en_page == nil and en_candidates.size > 0 %}{% assign en_page = en_candidates | first %}{% endif %}
+      {% if zh_page == nil and zh_candidates.size > 0 %}{% assign zh_page = zh_candidates | first %}{% endif %}
+    {% endfor %}
+    {% if en_page %}{% assign en_url = en_page.url %}{% endif %}
+    {% if zh_page %}{% assign zh_url = zh_page.url %}{% endif %}
+  {% endif %}
+
+  <div class="author__language-switch">
+    <span class="author__language-label">{% if page_lang == "zh" %}语言{% else %}Language{% endif %}</span>
+    <a class="author__language-link{% if page_lang == "en" %} is-active{% endif %}" href="{{ base_path }}{{ en_url }}">English</a>
+    <span class="author__language-sep">/</span>
+    <a class="author__language-link{% if page_lang == "zh" %} is-active{% endif %}" href="{{ base_path }}{{ zh_url }}">中文</a>
+  </div>
+
   <div class="author__urls-wrapper">
-    <button class="btn btn--inverse">Follow</button>
+    <button class="btn btn--inverse">{{ site.data.ui-text[page_locale].follow_label | default: "Follow" | replace: ":", "" }}</button>
     <ul class="author__urls social-icons">
       <!-- Font Awesome icons / Biographic information  -->
       {% if author.location %}
@@ -31,10 +59,10 @@
         <li class="author__desktop"><i class="fas fa-fw fa-building-columns icon-pad-right" aria-hidden="true"></i>{{ author.employer }}</li>
       {% endif %}
       {% if author.uri %}
-        <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].website_label | default: "Website" }}</a></li>
+        <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[page_locale].website_label | default: "Website" }}</a></li>
       {% endif %}
       {% if author.email %}
-        <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].email_label | default: "Email" }}</a></li>
+        <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[page_locale].email_label | default: "Email" }}</a></li>
       {% endif %}
 
       <!-- Font Awesome and Academicons icons / Academic websites -->

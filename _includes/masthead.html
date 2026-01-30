@@ -1,14 +1,37 @@
 {% include base_path %}
+{% assign page_lang = page.lang | default: "en" %}
+{% assign nav_links = site.data.navigation.main %}
+{% if page_lang == "zh" and site.data.navigation.main_zh %}
+  {% assign nav_links = site.data.navigation.main_zh %}
+{% endif %}
+{% assign home_url = "/" %}
+{% assign home_label = site.title %}
+{% if page_lang == "zh" %}
+  {% assign home_url = "/zh/" %}
+  {% if site.title_zh %}
+    {% assign home_label = site.title_zh %}
+  {% endif %}
+{% endif %}
+{% assign is_home = false %}
+{% if page_lang == "zh" %}
+  {% if page.url == "/zh/" or page.url == "/zh/index.html" %}
+    {% assign is_home = true %}
+  {% endif %}
+{% else %}
+  {% if page.url == "/" or page.url == "/index.html" %}
+    {% assign is_home = true %}
+  {% endif %}
+{% endif %}
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         <button><span class="navicon"></span></button>
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg persist {% if page.url == '/' or page.url == '/index.html' %}selected{% endif %}">
-            <a href="{{ base_path }}/">{{ site.title }}</a>
+          <li class="masthead__menu-item masthead__menu-item--lg persist {% if is_home %}selected{% endif %}">
+            <a href="{{ base_path }}{{ home_url }}">{{ home_label }}</a>
           </li>
-          {% for link in site.data.navigation.main %}
+          {% for link in nav_links %}
             {% if link.url contains 'http' %}
               {% assign domain = '' %}
             {% else %}

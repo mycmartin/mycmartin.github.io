@@ -31,3 +31,22 @@ main:
     
   - title: "Guide"
     url: /markdown/
+
+main_zh:
+  - title: "论文"
+    url: /zh/publications/
+
+  - title: "报告"
+    url: /zh/talks/
+
+  - title: "教学"
+    url: /zh/teaching/
+
+  - title: "项目"
+    url: /zh/portfolio/
+
+  - title: "博客"
+    url: /zh/year-archive/
+
+  - title: "简历"
+    url: /zh/cv/
