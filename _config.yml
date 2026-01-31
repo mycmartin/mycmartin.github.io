@@ -36,7 +36,7 @@ author:
   location_en      : "Hangzhou, China"
   location_zh      : "杭州, 中国"
   employer         : "浙江科技大学"
-  employer_en      : "Zhejiang Sci-Tech University"
+  employer_en      : "Zhejiang University of Science and Technology"
   employer_zh      : "浙江科技大学"
   uri              : # URL
   email            : "16055242@qq.com" 
@@ -60,7 +60,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  github           : "mycmartin"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
