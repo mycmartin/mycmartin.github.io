@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "?????"
+title: "报告与分享"
 permalink: /zh/talks/
 author_profile: true
 lang: zh
@@ -10,7 +10,7 @@ lang_ref: talks
 
 {% if site.talkmap_link == true %}
 
-<p style="text-decoration:underline;"><a href="/talkmap.html">????????</a></p>
+<p style="text-decoration:underline;"><a href="/talkmap.html">查看演讲地点地图</a></p>
 
 {% endif %}
 

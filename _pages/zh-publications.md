@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "??"
+title: "论文"
 permalink: /zh/publications/
 author_profile: true
 lang: zh
@@ -9,7 +9,7 @@ lang_ref: publications
 ---
 
 {% if site.author.googlescholar %}
-  <div class="wordwrap">????? <a href="{{site.author.googlescholar}}">?? Google Scholar</a> ???????</div>
+  <div class="wordwrap">你也可以在 <a href="{{site.author.googlescholar}}">我的 Google Scholar</a> 查看论文列表。</div>
 {% endif %}
 
 {% include base_path %}

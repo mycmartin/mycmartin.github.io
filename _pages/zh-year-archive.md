@@ -1,7 +1,7 @@
 ---
 layout: archive
 permalink: /zh/year-archive/
-title: "??"
+title: "博客"
 author_profile: true
 lang: zh
 locale: zh-CN

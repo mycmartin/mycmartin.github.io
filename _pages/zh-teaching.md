@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "??"
+title: "教学"
 permalink: /zh/teaching/
 author_profile: true
 lang: zh
