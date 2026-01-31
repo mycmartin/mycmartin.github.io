@@ -9,15 +9,15 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Your Name / Site Title"
-title_zh                 : "你的名字 / 中文站点"
+title                    : "Yicheng Ma"
+title_zh                 : "马毅诚"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
-url                      : https://academicpages.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
+name                     : &name "马毅诚"
+description              : &description "Undergraduate in Computer Science and Technology at Zhejiang Sci-Tech University, focused on computer vision and intelligent detection systems."   # Update this with a general description of your site, this is the default if not overridden by a page
+url                      : https://mycmartin.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "mycmartin/mycmartin.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -25,13 +25,21 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  name             : "马毅诚"
+  name_en          : "Yicheng Ma"
+  name_zh          : "马毅诚"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  bio              : "浙江科技大学计算机科学与技术本科生，关注计算机视觉与智能检测系统"
+  bio_en           : "Undergraduate in Computer Science and Technology at Zhejiang Sci-Tech University, focused on computer vision and intelligent detection systems."
+  bio_zh           : "浙江科技大学计算机科学与技术本科生，关注计算机视觉与智能检测系统"
+  location         : "杭州, 中国"
+  location_en      : "Hangzhou, China"
+  location_zh      : "杭州, 中国"
+  employer         : "浙江科技大学"
+  employer_en      : "Zhejiang Sci-Tech University"
+  employer_zh      : "浙江科技大学"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "16055242@qq.com" 
 
   # Academic websites
   academia         : # URL

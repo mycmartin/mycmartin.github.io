@@ -1,10 +1,10 @@
 ---
 layout: archive
-title: "Teaching"
-permalink: /teaching/
+title: "??"
+permalink: /zh/teaching/
 author_profile: true
-lang: en
-locale: en-US
+lang: zh
+locale: zh-CN
 lang_ref: teaching
 ---
 
@@ -12,7 +12,7 @@ lang_ref: teaching
 
 {% assign filtered_teaching = site.teaching | where: "lang", page.lang %}
 {% if filtered_teaching.size == 0 %}
-<p>Teaching items will be added soon.</p>
+<p>暂无教学内容。</p>
 {% endif %}
 {% for post in filtered_teaching reversed %}
   {% include archive-single.html %}

@@ -1,25 +1,24 @@
 ---
 layout: archive
-title: "Publications"
-permalink: /publications/
+title: "??"
+permalink: /zh/publications/
 author_profile: true
-lang: en
-locale: en-US
+lang: zh
+locale: zh-CN
 lang_ref: publications
 ---
 
 {% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+  <div class="wordwrap">????? <a href="{{site.author.googlescholar}}">?? Google Scholar</a> ???????</div>
 {% endif %}
 
 {% include base_path %}
 {% assign filtered_pubs = site.publications | where: "lang", page.lang %}
 
 {% if filtered_pubs.size == 0 %}
-<p>Publications will be added soon.</p>
+<p>论文列表整理中。</p>
 {% endif %}
 
-<!-- New style rendering if publication categories are defined -->
 {% if site.publication_category %}
   {% for category in site.publication_category  %}
     {% assign title_shown = false %}
@@ -39,6 +38,3 @@ lang_ref: publications
     {% include archive-single.html %}
   {% endfor %}
 {% endif %}
-
-
-

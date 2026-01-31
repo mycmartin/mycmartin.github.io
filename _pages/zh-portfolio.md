@@ -1,10 +1,10 @@
 ---
 layout: archive
-title: "Projects"
-permalink: /portfolio/
+title: "??"
+permalink: /zh/portfolio/
 author_profile: true
-lang: en
-locale: en-US
+lang: zh
+locale: zh-CN
 lang_ref: portfolio
 ---
 
