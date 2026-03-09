@@ -4,16 +4,16 @@ permalink: /portfolio/smart-agriculture-system/
 date: 2026-02-15
 lang: en
 lang_ref: project-smart-agriculture
-excerpt: "Visual web monitoring system for blueberry ripeness, tomato growth, and multimodal agricultural analytics."
+excerpt: "Smart agriculture monitoring platform for blueberry, tomato, and multimodal scene analysis."
 ---
 
 ## Overview
-Built a smart agriculture monitoring platform integrating blueberry ripeness detection, tomato growth analysis, and multimodal agricultural scene recognition, with real-time video monitoring, result visualization, history management, and analytics dashboards.
+Built a visual web system for smart agriculture monitoring around blueberry ripeness detection, tomato growth analysis, and multimodal agricultural scene recognition. The platform integrates real-time video monitoring, result display, history management, and data analysis to provide more intelligent and efficient digital support for agricultural production.
 
 ## Tech Stack
-FastAPI, Vue 3, Tailwind CSS, Axios, Chart.js, SQLite/SQLAlchemy, PyTorch, YOLOv8, OpenCV, PyAV, Transformers.
+FastAPI, Vue 3, CSS, SQLite, PyTorch, YOLOv8, OpenCV, PyAV, Transformers.
 
-## My Role
-- Led full-stack development and integration for the platform.
-- Implemented UGV/UAV dual-stream video access and real-time visualization of detection results.
-- Completed history traceability, recording playback, statistics dashboards, and data persistence for agricultural monitoring workflows.
+## Responsibilities
+- Responsible for core full-stack development and integration.
+- Completed UGV/UAV dual-stream video access, real-time visualization of blueberry ripeness detection results, tomato growth indicator analysis, multimodal result visualization, data storage, and history traceability.
+- Implemented recording playback and statistical dashboards.

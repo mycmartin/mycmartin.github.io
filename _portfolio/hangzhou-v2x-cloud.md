@@ -4,16 +4,17 @@ permalink: /portfolio/hangzhou-v2x-cloud/
 date: 2025-08-01
 lang: en
 lang_ref: project-hangzhou-v2x-cloud
-excerpt: "Frontend development for an integrated vehicle-road-cloud intelligent transportation platform."
+excerpt: "Frontend implementation for the Hangzhou vehicle-road-cloud integrated platform."
 ---
 
 ## Overview
-Participated in the construction of an integrated vehicle-air, road-ground, cloud-network, and map platform in Hangzhou, supporting intelligent transportation testing, low-altitude logistics, and smart city governance.
+Built the "vehicle-air / road-ground / cloud / network / map" system to support intelligent connected vehicle testing, low-altitude transportation, and urban governance.
 
 ## Tech Stack
-Vue 3, JavaScript, CSS, Ant Design Vue, Vue Router, MQTT.
+Vue 3, JavaScript, CSS.
 
-## My Role
-- Built the frontend page architecture with Vue 3 and developed modules such as login, profile center, warning notifications, and data dashboards.
-- Implemented route management and business navigation with Vue Router.
-- Integrated MQTT-based real-time message subscription, status updates, and alert pushing, and supported multi-party API integration.
+## Responsibilities
+- Responsible for implementing frontend pages and core interaction capabilities.
+- Built the overall page architecture with Vue 3 and completed modules such as login, personal center, alert notifications, and data display.
+- Coordinated API integration and data interfacing with Baidu, Alibaba, intelligent connected vehicle partners, Huawei, and government departments.
+- Completed the frontend presentation of monitoring data, risk alerts, and visualization information.

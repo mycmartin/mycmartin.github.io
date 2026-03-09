@@ -1,19 +1,20 @@
 ---
-title: "UAV & Robot Crop Ripeness Detection System (Edge Deployment)"
+title: "UAV & Robot Integrated Crop Ripeness Detection System"
 permalink: /portfolio/uav-robot-ripeness/
 date: 2025-03-01
 lang: en
 lang_ref: project-uav-robot
-excerpt: "Edge-computing system integrating UAV/robot capture, accelerated inference, and visualization."
+excerpt: "Edge-computing-based intelligent detection system for UAV and robotic platforms."
 ---
 
 ## Overview
-Developed an edge-computing intelligent detection system that integrates UAV and robot video capture, accelerated inference, remote streaming, and detection visualization.
+Developed an edge-computing-based intelligent detection system for UAV and robotic platforms, enabling video acquisition, inference acceleration, remote streaming, and visualization of detection results. The system also supported remote access, video storage, and cross-network control.
 
 ## Tech Stack
-RTMP, PyQt, MySQL, TensorRT, PyTorch.
+RTMP, PyQt, MySQL.
 
-## My Role
-- Implemented the local visualization workflow with PyQt.
-- Integrated TensorRT-accelerated object detection models to improve edge-side inference efficiency.
-- Logged detection results to MySQL in real time and supported video storage and playback.
+## Responsibilities
+- Responsible for the key implementation of the system interface and visualization.
+- Built the local interface with PyQt.
+- Integrated a TensorRT-accelerated object detection model to significantly improve edge inference efficiency.
+- Wrote detection results to MySQL in real time and supported video storage and playback.

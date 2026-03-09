@@ -1,11 +1,11 @@
 {
   "basics": {
     "name": "Yicheng Ma",
-    "label": "Computer Science Undergraduate | Computer Vision & Full-Stack Developer",
+    "label": "Computer Science and Technology | Computer Vision | Full-Stack Web Development",
     "email": "16055242@qq.com",
     "phone": "+86 13666601940 (WeChat same)",
     "website": "https://mycmartin.github.io",
-    "summary": "Undergraduate in Computer Science and Technology at Zhejiang University of Science and Technology, focused on computer vision, intelligent detection systems, and full-stack web development. Experienced in edge AI deployment, video analytics, real-time visualization, and end-to-end application development for smart agriculture, intelligent transportation, and digital inspection workflows.",
+    "summary": "Undergraduate student majoring in Computer Science and Technology, with hands-on project experience in computer vision, web development, and intelligent systems. Familiar with Python, C++, Java, PyTorch, OpenCV, Vue 3, and Node.js, with strong engineering and project implementation abilities.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -27,10 +27,10 @@
       "company": "Full-stack Developer",
       "startDate": "Feb 2026",
       "endDate": "Present",
-      "summary": "Built a smart agriculture monitoring platform for blueberry ripeness detection, tomato growth analysis, and multimodal agricultural scene recognition.",
+      "summary": "Built a visual web system for smart agriculture monitoring around blueberry ripeness detection, tomato growth analysis, and multimodal agricultural scene recognition.",
       "highlights": [
-        "Tech stack: FastAPI, Vue 3, Tailwind CSS, Axios, Chart.js, SQLite/SQLAlchemy, PyTorch, YOLOv8, OpenCV, PyAV, Transformers.",
-        "Implemented UGV/UAV dual-stream video access, real-time result visualization, history traceability, playback, and statistical dashboards."
+        "Tech Stack: FastAPI, Vue 3, CSS, SQLite, PyTorch, YOLOv8, OpenCV, PyAV, Transformers.",
+        "Responsibilities: Completed UGV/UAV dual-stream video access, blueberry ripeness result visualization, tomato growth analysis, multimodal result visualization, data storage and history traceability, recording playback, and statistical dashboards."
       ]
     },
     {
@@ -38,21 +38,21 @@
       "company": "Full-stack Developer",
       "startDate": "Feb 2026",
       "endDate": "Present",
-      "summary": "Developed a digital checklist platform for employee-side reporting and administrator-side management.",
+      "summary": "Built a digital checklist platform for ramp operation inspections, supporting employee submission and administrator management.",
       "highlights": [
-        "Tech stack: Node.js, Express, MongoDB, HTML, CSS, JavaScript, JWT, Multer.",
-        "Implemented authentication, dynamic checklist rendering, record submission, image upload, template management, statistics, AI-assisted reporting, and issue closed-loop tracking."
+        "Tech Stack: Node.js, Express, MongoDB, HTML, CSS, JavaScript, JWT, Multer.",
+        "Responsibilities: Built backend services and APIs with Express, managed business data with MongoDB, and implemented employee-side and admin-side interfaces with authentication, checklist rendering, record submission, photo upload, template configuration, AI-generated reports, and issue closed-loop tracking."
       ]
     },
     {
       "position": "Agricultural Multimodal Large Language Model Fine-Tuning",
       "company": "AI Engineer",
       "startDate": "Sep 2025",
-      "endDate": "Jan 2026",
-      "summary": "Optimized multimodal large language models for agricultural scenarios.",
+      "endDate": "Present",
+      "summary": "Fine-tuned a Qwen-based multimodal large model for agricultural scenarios, supporting both image and text inputs.",
       "highlights": [
-        "Tech stack: Python, LLaMA-Factory.",
-        "Worked on dataset construction, knowledge base building, hyperparameter tuning, and deployment on edge processors."
+        "Tech Stack: Python, LLaMA-Factory.",
+        "Responsibilities: Built the dataset through on-site greenhouse photography, constructed the knowledge base, tuned hyperparameters, and deployed the model on Jetson AGX Orin."
       ]
     },
     {
@@ -60,10 +60,10 @@
       "company": "Frontend Developer",
       "startDate": "Jun 2025",
       "endDate": "Aug 2025",
-      "summary": "Participated in the frontend development of an integrated intelligent transportation and urban governance platform.",
+      "summary": "Built the vehicle-air / road-ground / cloud / network / map system to support intelligent connected vehicle testing, low-altitude transportation, and urban governance.",
       "highlights": [
-        "Tech stack: Vue 3, JavaScript, CSS, Ant Design Vue, Vue Router, MQTT.",
-        "Built login, profile center, warning notifications, dashboards, and MQTT-based real-time alert pushing."
+        "Tech Stack: Vue 3, JavaScript, CSS.",
+        "Responsibilities: Built the frontend page architecture, completed login, personal center, alert notification, and data display modules, coordinated API integration with Baidu, Alibaba, intelligent connected vehicle partners, Huawei, and government departments, and completed monitoring and risk visualization."
       ]
     },
     {
@@ -71,39 +71,39 @@
       "company": "Web Developer",
       "startDate": "Mar 2025",
       "endDate": "May 2025",
-      "summary": "Built a public web platform for blueberry ripeness visualization and real-time analytics.",
+      "summary": "Built a public web platform for blueberry ripeness visualization, providing farmers with broader access to visualized detection results.",
       "highlights": [
-        "Tech stack: Flask, Jinja2, PyAV, OpenCV, PyAudio, MySQL.",
-        "Implemented real-time rendering of videos and structured analytics including category, confidence, and count, with database persistence and playback."
+        "Tech Stack: PyAV, OpenCV, PyAudio, Jinja2, Flask, MySQL.",
+        "Responsibilities: Built Jinja2-based HTML and JavaScript pages with Flask dynamic rendering, realized real-time video display and visualization of category, confidence, and quantity, wrote results to MySQL in real time, and supported video storage and playback."
       ]
     },
     {
-      "position": "Zhihang Road Control - Intelligent Vehicle Detection System",
+      "position": "Zhihang Road Control - Intelligent Vehicle Detection System for Large Transportation Hubs",
       "company": "Desktop Application Developer",
       "startDate": "Mar 2025",
       "endDate": "May 2025",
-      "summary": "Built a desktop-side interaction system for multi-type vehicle recognition and monitoring in large transportation hubs.",
+      "summary": "Combined BEV hybrid algorithms, visual recognition, and data analysis to enable efficient recognition and real-time monitoring of multiple vehicle types.",
       "highlights": [
-        "Tech stack: PyQt5, PyAV, OpenCV, NumPy, pickle.",
-        "Implemented login/registration, user management, video playback, live camera capture, recording, storage, and historical playback."
+        "Tech Stack: PyQt5, PyAV, OpenCV, NumPy, pickle.",
+        "Responsibilities: Built the desktop-side interface with PyQt5, implemented local video parsing, live camera capture, frame refresh, playback control, video recording, file storage, and historical playback."
       ]
     },
     {
-      "position": "UAV & Robot Integrated Crop Ripeness Detection System",
+      "position": "UAV & Robot Integrated Crop Ripeness Detection System Development and Deployment",
       "company": "Edge AI Developer",
       "startDate": "Nov 2024",
       "endDate": "Mar 2025",
-      "summary": "Developed an edge-computing detection system integrating UAV/robot video capture, accelerated inference, remote streaming, and visualization.",
+      "summary": "Developed an edge-computing-based intelligent detection system for UAV and robotic platforms with remote access, video storage, and cross-network control.",
       "highlights": [
-        "Tech stack: RTMP, PyQt, MySQL, TensorRT, PyTorch.",
-        "Implemented the local UI, integrated TensorRT-accelerated object detection, and supported real-time database logging plus video storage and playback."
+        "Tech Stack: RTMP, PyQt, MySQL.",
+        "Responsibilities: Built the local interface with PyQt, integrated a TensorRT-accelerated object detection model, significantly improved edge inference efficiency, wrote detection results to MySQL in real time, and supported video storage and playback."
       ]
     }
   ],
   "education": [
     {
       "institution": "Zhejiang University of Science and Technology",
-      "area": "B.Eng. in Computer Science and Technology",
+      "area": "Major in Computer Science and Technology",
       "studyType": "Undergraduate",
       "startDate": "",
       "endDate": "Present",
@@ -113,64 +113,47 @@
   ],
   "skills": [
     {
-      "name": "Programming",
+      "name": "Programming Languages",
       "keywords": [
         "Python",
         "C++",
-        "Java",
-        "JavaScript"
+        "Java"
       ]
     },
     {
-      "name": "AI & Computer Vision",
+      "name": "Computer Vision",
       "keywords": [
-        "PyTorch",
-        "Transformer",
-        "YOLOv8",
         "OpenCV",
-        "TensorRT",
         "Image Classification",
         "Object Detection"
       ]
     },
     {
-      "name": "Frontend",
+      "name": "Deep Learning",
       "keywords": [
-        "Vue 3",
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "Tailwind CSS",
-        "Chart.js",
-        "Ant Design Vue"
+        "PyTorch",
+        "Transformer",
+        "Model Training",
+        "Model Tuning",
+        "Model Deployment"
       ]
     },
     {
-      "name": "Backend & Data",
+      "name": "Development Areas",
       "keywords": [
-        "Flask",
-        "FastAPI",
-        "Node.js",
-        "Express",
-        "Jinja2",
-        "MySQL",
-        "MongoDB",
-        "SQLite",
-        "SQLAlchemy",
-        "JWT",
-        "Multer"
-      ]
-    },
-    {
-      "name": "Media & Systems",
-      "keywords": [
-        "PyAV",
-        "PyAudio",
-        "RTMP",
-        "MQTT",
-        "Axios",
         "Android Development",
-        "Web Development"
+        "Web Development",
+        "Desktop Applications",
+        "Full-stack Development"
+      ]
+    },
+    {
+      "name": "Project Delivery",
+      "keywords": [
+        "Video Stream Processing",
+        "Edge Inference Acceleration",
+        "Database Management",
+        "Data Visualization"
       ]
     }
   ],
@@ -189,10 +172,10 @@
       "name": "Focus Areas",
       "keywords": [
         "Computer Vision",
-        "Intelligent Detection Systems",
+        "Smart Transportation",
         "Smart Agriculture",
-        "Intelligent Transportation",
-        "Full-stack Web Development"
+        "Full-stack Web Development",
+        "Intelligent Detection Systems"
       ]
     }
   ],

@@ -5,12 +5,12 @@ author_profile: true
 lang: en
 locale: en-US
 lang_ref: home
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-Hi! I'm Yicheng Ma, an undergraduate student in Computer Science and Technology at Zhejiang University of Science and Technology. I focus on computer vision, intelligent detection systems, and full-stack web development, with hands-on project experience in smart agriculture, intelligent transportation, and digital workflow platforms.
+Hi! I'm Yicheng Ma, an undergraduate student majoring in Computer Science and Technology at Zhejiang University of Science and Technology. I have hands-on project experience in computer vision, web development, and intelligent systems, with a strong focus on smart agriculture, intelligent transportation, and edge-based intelligent detection platforms.
 
 Email: 16055242@qq.com  
 Phone: +86 13666601940  
@@ -19,8 +19,8 @@ Location: Hangzhou, China
 
 * * *
 
-## Profile
-I build desktop and web-based systems for real-time video analytics, intelligent monitoring, and data visualization. My recent work covers edge AI deployment, computer vision model integration, multimodal large language model fine-tuning, and end-to-end development with Flask, FastAPI, Vue 3, and Node.js.
+## Profile Summary
+Experienced in computer vision, smart transportation, smart agriculture, and full-stack web development, with the ability to independently complete the full development cycle from interface implementation to system integration and deployment. Skilled in video stream processing, object detection, data visualization, and database design, with strong hands-on experience in deploying edge-based intelligent detection systems.
 
 * * *
 
@@ -29,51 +29,50 @@ I build desktop and web-based systems for real-time video analytics, intelligent
 
 * * *
 
-## Technical Skills
-- Programming: Python, C++, Java, JavaScript.
-- AI & Computer Vision: OpenCV, image classification, object detection, PyTorch, Transformer models, YOLOv8, TensorRT.
-- Frontend: Vue 3, HTML, CSS, JavaScript, Tailwind CSS, Ant Design Vue, Chart.js.
-- Backend & Databases: Flask, FastAPI, Node.js, Express, Jinja2, MySQL, MongoDB, SQLite, SQLAlchemy, JWT, Multer.
-- Multimedia & Systems: PyAV, PyAudio, RTMP, MQTT, Axios.
-- Development Areas: Android application development, Web application development, edge deployment, real-time visualization.
+## Skills
+- Proficient in Python, C++, and Java, with solid capabilities in algorithm implementation and software development.
+- Familiar with OpenCV and computer vision technologies, including image classification and object detection.
+- Experienced with the PyTorch framework and Transformer models, with hands-on experience in model training, tuning, and deployment.
+- Familiar with Android application development and full-stack Web development, capable of independently implementing desktop and web-based systems.
+- Experienced in video stream processing, edge inference acceleration, database management, and data visualization for real-world projects.
 
 * * *
 
-## Selected Projects
+## Project Experience
 **Feb 2026 - Present Smart Agriculture System**
-- Built a visual web platform for blueberry ripeness detection, tomato growth analysis, and multimodal agricultural scene recognition.
-- Implemented UGV/UAV dual-stream video access, real-time result visualization, history traceability, recording playback, and analytics dashboards.
-- Tech stack: FastAPI, Vue 3, Tailwind CSS, Axios, Chart.js, SQLite/SQLAlchemy, PyTorch, YOLOv8, OpenCV, PyAV, Transformers.
+- Project Overview: Built a visual web system for smart agriculture monitoring around blueberry ripeness detection, tomato growth analysis, and multimodal agricultural scene recognition. The platform integrates real-time video monitoring, result display, history management, and data analysis to provide more intelligent and efficient digital support for agricultural production.
+- Tech Stack: FastAPI, Vue 3, CSS, SQLite, PyTorch, YOLOv8, OpenCV, PyAV, Transformers.
+- Responsibilities: Responsible for core full-stack development and integration, including UGV/UAV dual-stream video access, real-time visualization of blueberry ripeness detection results, tomato growth indicator analysis, multimodal result visualization, data storage and history traceability, as well as recording playback and statistical dashboards.
 
 **Feb 2026 - Present Hangzhou Cargo Station Checklist Management System**
-- Developed a digital checklist platform for employee-side inspection reporting and administrator-side management.
-- Implemented authentication, dynamic checklist rendering, record submission, image upload, template management, issue tracking, and AI-assisted report generation.
-- Tech stack: Node.js, Express, MongoDB, HTML, CSS, JavaScript, JWT, Multer.
+- Project Overview: Focused on building a digital checklist platform for ramp operation inspections, supporting daily employee submissions and centralized administrator management.
+- Tech Stack: Node.js, Express, MongoDB, HTML, CSS, JavaScript, JWT, Multer.
+- Responsibilities: Responsible for overall frontend and backend setup. Built backend services and APIs with Express, used MongoDB for business data storage and management, and developed employee-side and admin-side interfaces with native HTML, CSS, and JavaScript. Implemented authentication, dynamic checklist rendering, record submission, photo upload, template configuration, statistical analysis, AI-generated reports, and issue closed-loop tracking.
 
-**Sep 2025 - Jan 2026 Agricultural Multimodal Large Language Model Fine-Tuning**
-- Focused on agricultural multimodal LLM adaptation for domain knowledge understanding and task optimization.
-- Worked on dataset construction, knowledge base building, hyperparameter tuning, and edge processor deployment.
-- Tech stack: Python, LLaMA-Factory.
+**Sep 2025 - Present Agricultural Multimodal Large Language Model Fine-Tuning**
+- Project Overview: Fine-tuned a Qwen-based multimodal large model for agricultural scenarios, supporting both image and text inputs.
+- Tech Stack: Python, LLaMA-Factory.
+- Responsibilities: Built the dataset through on-site greenhouse photography, constructed the knowledge base, tuned hyperparameters, and deployed the model on an edge processor based on Jetson AGX Orin.
 
 **Jun 2025 - Aug 2025 Hangzhou Vehicle-Road-Cloud Integrated Project**
-- Participated in the frontend development of an integrated vehicle-air, road-ground, cloud-network, and map platform for intelligent transportation and urban governance.
-- Developed modules including login, profile center, warning notifications, and data dashboards, and integrated MQTT-based real-time message subscription and alert pushing.
-- Tech stack: Vue 3, JavaScript, CSS, Ant Design Vue, Vue Router, MQTT.
+- Project Overview: Built the "vehicle-air / road-ground / cloud / network / map" system to support intelligent connected vehicle testing, low-altitude transportation, and urban governance.
+- Tech Stack: Vue 3, JavaScript, CSS.
+- Responsibilities: Responsible for implementing frontend pages and core interaction capabilities. Built the overall page architecture with Vue 3 and completed modules such as login, personal center, alert notifications, and data display. Also handled API integration and data interfacing with Baidu, Alibaba, intelligent connected vehicle partners, Huawei, and government departments, and completed the frontend presentation of monitoring data, risk alerts, and visualization information.
 
 **Mar 2025 - May 2025 Space-Air-Ground Integrated Ripeness Detection System (Web Visualization Platform)**
-- Built a public web platform for blueberry ripeness visualization and real-time detection result display.
-- Implemented real-time video and analytics rendering for category, confidence, and quantity, and supported database persistence and playback.
-- Tech stack: Flask, Jinja2, PyAV, OpenCV, PyAudio, MySQL.
+- Project Overview: Focused on building a public web platform for blueberry ripeness visualization, providing farmers with broader access to visualized detection results.
+- Tech Stack: PyAV, OpenCV, PyAudio, Jinja2, Flask, MySQL.
+- Responsibilities: Responsible for the technical implementation of the web presentation layer. Built HTML and JavaScript pages based on the Jinja2 template engine with Flask dynamic rendering, and used PyAV, OpenCV, and PyAudio to realize real-time video display and information visualization of blueberry ripeness detection results, including category, confidence, and quantity. Detection results were written to MySQL in real time, with support for video storage and playback.
 
 **Mar 2025 - May 2025 Zhihang Road Control - Intelligent Vehicle Detection System for Large Transportation Hubs**
-- Built a desktop-side interaction system for multi-type vehicle recognition and monitoring.
-- Developed login, user management, video playback, camera capture, progress control, local recording, file storage, and historical playback.
-- Tech stack: PyQt5, PyAV, OpenCV, NumPy, pickle.
+- Project Overview: Combined BEV hybrid algorithms, visual recognition, and data analysis to enable efficient recognition and real-time monitoring of multiple vehicle types.
+- Tech Stack: PyQt5, PyAV, OpenCV, NumPy, pickle.
+- Responsibilities: Responsible for overall desktop UI interaction and core feature implementation. Built the desktop-side interface with PyQt5, used PyAV and OpenCV for local video parsing, real-time camera capture, frame refresh, and playback control, and implemented video recording, file storage, and historical playback.
 
-**Nov 2024 - Mar 2025 UAV & Robot Integrated Crop Ripeness Detection System**
-- Built an edge-computing detection system integrating UAV/robot video capture, accelerated inference, remote streaming, and visualization.
-- Integrated TensorRT-accelerated object detection models, real-time MySQL logging, and video storage/playback capabilities.
-- Tech stack: RTMP, PyQt, MySQL, TensorRT, PyTorch.
+**Nov 2024 - Mar 2025 UAV & Robot Integrated Crop Ripeness Detection System Development and Deployment**
+- Project Overview: Developed an edge-computing-based intelligent detection system for UAV and robotic platforms, enabling video acquisition, inference acceleration, remote streaming, and visualization of detection results. The system also supported remote access, video storage, and cross-network control.
+- Tech Stack: RTMP, PyQt, MySQL.
+- Responsibilities: Responsible for the key implementation of the system interface and visualization. Built the local interface with PyQt, integrated a TensorRT-accelerated object detection model to significantly improve edge inference efficiency, wrote detection results to MySQL in real time, and supported video storage and playback.
 
 * * *
 
