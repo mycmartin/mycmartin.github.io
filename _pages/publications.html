@@ -13,8 +13,7 @@ lang_ref: publications
 {% endif %}
 
 {% include base_path %}
-{% assign page_lang = page.lang | default: "en" %}
-{% assign filtered_pubs = site.publications | where_exp: "item", "item.lang == nil or item.lang == page_lang" %}
+{% assign filtered_pubs = site.publications | where: "lang", page.lang %}
 
 {% if filtered_pubs.size == 0 %}
 <p>Publications will be added soon.</p>

@@ -3,7 +3,6 @@
 {% if page.author and site.data.authors[page.author] %}
   {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.author %}
 {% endif %}
-{% assign page_lang = page.lang | default: "en" %}
 
 <div itemscope itemtype="http://schema.org/Person">
 
@@ -49,6 +48,7 @@
     {% if author_bio %}<p class="author__bio">{{ author_bio }}</p>{% endif %}
   </div>
 
+  {% assign page_lang = page.lang | default: "en" %}
   {% assign lang_ref = page.lang_ref %}
   {% assign en_url = "/" %}
   {% assign zh_url = "/zh/" %}

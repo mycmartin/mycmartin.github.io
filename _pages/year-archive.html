@@ -12,8 +12,7 @@ redirect_from:
 
 {% include base_path %}
 {% capture written_year %}'None'{% endcapture %}
-{% assign page_lang = page.lang | default: "en" %}
-{% assign filtered_posts = site.posts | where_exp: "item", "item.lang == nil or item.lang == page_lang" %}
+{% assign filtered_posts = site.posts | where: "lang", page.lang %}
 {% if filtered_posts.size == 0 %}
 <p>Posts will be added soon.</p>
 {% endif %}

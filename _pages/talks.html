@@ -14,8 +14,7 @@ lang_ref: talks
 
 {% endif %}
 
-{% assign page_lang = page.lang | default: "en" %}
-{% assign filtered_talks = site.talks | where_exp: "item", "item.lang == nil or item.lang == page_lang" %}
+{% assign filtered_talks = site.talks | where: "lang", page.lang %}
 {% if filtered_talks.size == 0 %}
 <p>Talks will be added soon.</p>
 {% endif %}
