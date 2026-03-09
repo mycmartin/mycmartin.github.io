@@ -14,6 +14,15 @@ lang_ref: publications
 
 {% include base_path %}
 {% assign filtered_pubs = site.publications | where: "lang", page.lang %}
+{% assign publication_fallback = false %}
+{% if filtered_pubs.size == 0 %}
+  {% assign filtered_pubs = site.publications | where_exp: "item", "item.lang == nil or item.lang == 'en'" %}
+  {% assign publication_fallback = true %}
+{% endif %}
+
+{% if publication_fallback and filtered_pubs.size > 0 %}
+<p class="archive__notice">当前暂无中文版本，已显示英文内容。</p>
+{% endif %}
 
 {% if filtered_pubs.size == 0 %}
 <p>论文列表整理中。</p>

@@ -1,152 +1,204 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
-    "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "name": "Yicheng Ma",
+    "label": "Computer Science Undergraduate | Computer Vision & Full-Stack Developer",
+    "email": "16055242@qq.com",
+    "phone": "+86 13666601940 (WeChat same)",
+    "website": "https://mycmartin.github.io",
+    "summary": "Undergraduate in Computer Science and Technology at Zhejiang University of Science and Technology, focused on computer vision, intelligent detection systems, and full-stack web development. Experienced in edge AI deployment, video analytics, real-time visualization, and end-to-end application development for smart agriculture, intelligent transportation, and digital inspection workflows.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
-      "countryCode": "US",
-      "region": ""
+      "city": "Hangzhou",
+      "countryCode": "CN",
+      "region": "Zhejiang"
     },
     "profiles": [
       {
-        "network": "Google Scholar",
-        "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-      },
-      {
-        "network": "ORCID",
-        "username": "",
-        "url": "https://orcid.org/yourorcidurl"
-      },
-      {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "mycmartin",
+        "url": "https://github.com/mycmartin"
       }
     ]
   },
-  "work": [],
+  "work": [
+    {
+      "position": "Smart Agriculture System",
+      "company": "Full-stack Developer",
+      "startDate": "Feb 2026",
+      "endDate": "Present",
+      "summary": "Built a smart agriculture monitoring platform for blueberry ripeness detection, tomato growth analysis, and multimodal agricultural scene recognition.",
+      "highlights": [
+        "Tech stack: FastAPI, Vue 3, Tailwind CSS, Axios, Chart.js, SQLite/SQLAlchemy, PyTorch, YOLOv8, OpenCV, PyAV, Transformers.",
+        "Implemented UGV/UAV dual-stream video access, real-time result visualization, history traceability, playback, and statistical dashboards."
+      ]
+    },
+    {
+      "position": "Hangzhou Cargo Station Checklist Management System",
+      "company": "Full-stack Developer",
+      "startDate": "Feb 2026",
+      "endDate": "Present",
+      "summary": "Developed a digital checklist platform for employee-side reporting and administrator-side management.",
+      "highlights": [
+        "Tech stack: Node.js, Express, MongoDB, HTML, CSS, JavaScript, JWT, Multer.",
+        "Implemented authentication, dynamic checklist rendering, record submission, image upload, template management, statistics, AI-assisted reporting, and issue closed-loop tracking."
+      ]
+    },
+    {
+      "position": "Agricultural Multimodal Large Language Model Fine-Tuning",
+      "company": "AI Engineer",
+      "startDate": "Sep 2025",
+      "endDate": "Jan 2026",
+      "summary": "Optimized multimodal large language models for agricultural scenarios.",
+      "highlights": [
+        "Tech stack: Python, LLaMA-Factory.",
+        "Worked on dataset construction, knowledge base building, hyperparameter tuning, and deployment on edge processors."
+      ]
+    },
+    {
+      "position": "Hangzhou Vehicle-Road-Cloud Integrated Project",
+      "company": "Frontend Developer",
+      "startDate": "Jun 2025",
+      "endDate": "Aug 2025",
+      "summary": "Participated in the frontend development of an integrated intelligent transportation and urban governance platform.",
+      "highlights": [
+        "Tech stack: Vue 3, JavaScript, CSS, Ant Design Vue, Vue Router, MQTT.",
+        "Built login, profile center, warning notifications, dashboards, and MQTT-based real-time alert pushing."
+      ]
+    },
+    {
+      "position": "Space-Air-Ground Integrated Ripeness Detection System (Web Visualization Platform)",
+      "company": "Web Developer",
+      "startDate": "Mar 2025",
+      "endDate": "May 2025",
+      "summary": "Built a public web platform for blueberry ripeness visualization and real-time analytics.",
+      "highlights": [
+        "Tech stack: Flask, Jinja2, PyAV, OpenCV, PyAudio, MySQL.",
+        "Implemented real-time rendering of videos and structured analytics including category, confidence, and count, with database persistence and playback."
+      ]
+    },
+    {
+      "position": "Zhihang Road Control - Intelligent Vehicle Detection System",
+      "company": "Desktop Application Developer",
+      "startDate": "Mar 2025",
+      "endDate": "May 2025",
+      "summary": "Built a desktop-side interaction system for multi-type vehicle recognition and monitoring in large transportation hubs.",
+      "highlights": [
+        "Tech stack: PyQt5, PyAV, OpenCV, NumPy, pickle.",
+        "Implemented login/registration, user management, video playback, live camera capture, recording, storage, and historical playback."
+      ]
+    },
+    {
+      "position": "UAV & Robot Integrated Crop Ripeness Detection System",
+      "company": "Edge AI Developer",
+      "startDate": "Nov 2024",
+      "endDate": "Mar 2025",
+      "summary": "Developed an edge-computing detection system integrating UAV/robot video capture, accelerated inference, remote streaming, and visualization.",
+      "highlights": [
+        "Tech stack: RTMP, PyQt, MySQL, TensorRT, PyTorch.",
+        "Implemented the local UI, integrated TensorRT-accelerated object detection, and supported real-time database logging plus video storage and playback."
+      ]
+    }
+  ],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
+      "institution": "Zhejiang University of Science and Technology",
+      "area": "B.Eng. in Computer Science and Technology",
+      "studyType": "Undergraduate",
       "startDate": "",
-      "endDate": "2018",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
+      "endDate": "Present",
       "gpa": null,
       "courses": []
     }
   ],
-  "skills": [],
-  "languages": [],
-  "interests": [],
+  "skills": [
+    {
+      "name": "Programming",
+      "keywords": [
+        "Python",
+        "C++",
+        "Java",
+        "JavaScript"
+      ]
+    },
+    {
+      "name": "AI & Computer Vision",
+      "keywords": [
+        "PyTorch",
+        "Transformer",
+        "YOLOv8",
+        "OpenCV",
+        "TensorRT",
+        "Image Classification",
+        "Object Detection"
+      ]
+    },
+    {
+      "name": "Frontend",
+      "keywords": [
+        "Vue 3",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Tailwind CSS",
+        "Chart.js",
+        "Ant Design Vue"
+      ]
+    },
+    {
+      "name": "Backend & Data",
+      "keywords": [
+        "Flask",
+        "FastAPI",
+        "Node.js",
+        "Express",
+        "Jinja2",
+        "MySQL",
+        "MongoDB",
+        "SQLite",
+        "SQLAlchemy",
+        "JWT",
+        "Multer"
+      ]
+    },
+    {
+      "name": "Media & Systems",
+      "keywords": [
+        "PyAV",
+        "PyAudio",
+        "RTMP",
+        "MQTT",
+        "Axios",
+        "Android Development",
+        "Web Development"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Chinese",
+      "fluency": "Native"
+    },
+    {
+      "language": "English",
+      "fluency": "CET-6"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Focus Areas",
+      "keywords": [
+        "Computer Vision",
+        "Intelligent Detection Systems",
+        "Smart Agriculture",
+        "Intelligent Transportation",
+        "Full-stack Web Development"
+      ]
+    }
+  ],
   "references": [],
-  "publications": [
-    {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "https://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "https://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
-    }
-  ],
-  "presentations": [
-    {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
-    }
-  ],
-  "teaching": [
-    {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
-    },
-    {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
-    }
-  ],
-  "portfolio": [
-    {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
-      "date": "",
-      "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
-    }
-  ]
+  "publications": [],
+  "presentations": [],
+  "teaching": [],
+  "portfolio": []
 }

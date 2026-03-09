@@ -8,12 +8,12 @@ excerpt: "Public web platform for real-time blueberry ripeness visualization and
 ---
 
 ## Overview
-Built a public-facing web platform to visualize blueberry ripeness in real time and provide farmers with a broader view of orchard status.
+Built a public-facing web platform for blueberry ripeness detection and visualization, providing farmers with a convenient way to view live monitoring results and structured analytics.
 
 ## Tech Stack
 Flask, Jinja2, PyAV, OpenCV, PyAudio, MySQL.
 
 ## My Role
-- Implemented the web UI and live video/analytics rendering.
-- Integrated real-time detection results (class, confidence, count) and database persistence.
-- Supported video storage and playback.
+- Implemented the web UI and dynamic page rendering with Flask and Jinja2.
+- Built real-time visualization for category, confidence, and quantity results on the frontend.
+- Integrated MySQL for real-time data persistence and supported video storage and playback.

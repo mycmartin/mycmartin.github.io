@@ -8,12 +8,12 @@ excerpt: "Edge-computing system integrating UAV/robot capture, accelerated infer
 ---
 
 ## Overview
-Developed an edge-computing detection system integrating UAV/robot video capture, inference acceleration, remote streaming, and visualization.
+Developed an edge-computing intelligent detection system that integrates UAV and robot video capture, accelerated inference, remote streaming, and detection visualization.
 
 ## Tech Stack
 RTMP, PyQt, MySQL, TensorRT, PyTorch.
 
 ## My Role
-- Implemented the UI/visualization workflow with PyQt.
-- Integrated TensorRT-accelerated detection models to improve edge inference speed.
-- Logged results to MySQL in real time and supported video storage and playback.
+- Implemented the local visualization workflow with PyQt.
+- Integrated TensorRT-accelerated object detection models to improve edge-side inference efficiency.
+- Logged detection results to MySQL in real time and supported video storage and playback.

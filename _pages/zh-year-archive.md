@@ -11,6 +11,16 @@ lang_ref: blog
 {% include base_path %}
 {% capture written_year %}'None'{% endcapture %}
 {% assign filtered_posts = site.posts | where: "lang", page.lang %}
+{% assign post_fallback = false %}
+{% if filtered_posts.size == 0 %}
+  {% assign filtered_posts = site.posts | where_exp: "item", "item.lang == nil or item.lang == 'en'" %}
+  {% assign post_fallback = true %}
+{% endif %}
+
+{% if post_fallback and filtered_posts.size > 0 %}
+<p class="archive__notice">当前暂无中文版本，已显示英文内容。</p>
+{% endif %}
+
 {% if filtered_posts.size == 0 %}
 <p>暂无博客文章。</p>
 {% endif %}
