@@ -39,12 +39,14 @@ author:
   employer_en      : "Zhejiang University of Science and Technology"
   employer_zh      : "浙江科技大学"
   uri              : # URL
-  email            : "16055242@qq.com" 
+  email            : "16055242@qq.com"
+  phone            : "13666601940"
+  wechat           : "13666601940"
 
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : # URL
   inspire-hep      : # URL
   impactstory      : # URL
   orcid            : # URL
