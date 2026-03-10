@@ -24,7 +24,7 @@ repository               : "mycmartin/mycmartin.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "头像2.jpg" # filename of author avatar placed in /images/ for author profile and social media previews
   name             : "马毅诚"
   name_en          : "Yicheng Ma"
   name_zh          : "马毅诚"
